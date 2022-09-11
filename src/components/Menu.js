@@ -4,8 +4,10 @@ import {ReactComponent as Messages} from "../images/messages.svg"
 import {ReactComponent as Post} from "../images/post.svg"
 import {ReactComponent as Explore} from "../images/explore.svg"
 import {ReactComponent as Activity} from "../images/activity.svg"
+import image from "../images/profilepic.jpeg";
 
 import '../styles/menu.scss'
+import ProfileIcon from './ProfileIcon'
 
 function Menu() {
   return (
@@ -15,7 +17,7 @@ function Menu() {
         <Post className='icon' />
         <Explore className='icon' />
         <Activity className='icon' />
-        {/* profile icon component */}
+        <ProfileIcon iconSize="small" image={image} storyBorder />
     </div>
   )
 }

@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5em;
+
+    .icon {
+        width: 30px;
+        margin-right: 1em;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

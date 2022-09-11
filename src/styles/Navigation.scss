@@ -35,4 +35,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .search-icon {
+        width: 20px;
+        opacity: 0.2;
+        margin-right: 0.4em;
+    }
+
+    .search-text {
+        color: $font-colour-secondary;
+        font-size: 0.85em;
+        font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .search {
+        display: none;
+    }
 }

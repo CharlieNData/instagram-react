@@ -3,7 +3,7 @@ import Menu from './Menu';
 import logo from '../images/logo.svg';
 import searchIcon from '../images/search.svg';
 
-import '../styles/Navigation.scss';
+import '../styles/navigation.scss';
 
 function Navigation() {
   return (
